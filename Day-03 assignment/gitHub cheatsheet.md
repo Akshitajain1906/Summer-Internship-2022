@@ -1,4 +1,4 @@
-#gitHub cheat sheet 
+# gitHub cheat sheet 
 has the short notes for basic and better understanding of gitHub
 
 # Why do we need does GIT ?
