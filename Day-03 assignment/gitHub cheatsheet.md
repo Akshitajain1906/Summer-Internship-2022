@@ -12,13 +12,13 @@ has the short notes for basic and better understanding of GitHub
   readme.md file is a markdown extension file which is actually a language used for HTML, and has specific symbols denoting different elements.
 
 # Simple steps paradigm
-STEP 1. `git clone https://github.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022.git`clone repo (url used is of repo).
-STEP 2. browse to respective folder or create files
-STEP 3. `git init`
-STEP 4. `git add --all`
-STEP 5. `git commit -m 'added files'` '-m' stands for message
-STEP 6. `git remote add origin https://github.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022.git` lets us hook our local file to repo in gitHub
-STEP 7. `git push -u origin main` 'since i cloned i had main and i was working in it so i am pushing main, it could've been master or some new branch too'
++ STEP 1. `git clone https://github.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022.git`clone repo (url used is of repo).
++ STEP 2. browse to respective folder or create files
++ STEP 3. `git init`
++ STEP 4. `git add --all`
++ STEP 5. `git commit -m 'added files'` '-m' stands for message
++ STEP 6. `git remote add origin https://github.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022.git` lets us hook our local file to repo in gitHub
++ STEP 7. `git push -u origin main` 'since i cloned i had main and i was working in it so i am pushing main, it could've been master or some new branch too'
 
 # INSIGHTS OF COMMANDS USED
 + `git init`- To initialize the git repository - 
