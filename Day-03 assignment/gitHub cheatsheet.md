@@ -59,8 +59,8 @@ Developer can keep on working on the code without worrying about the syncronizat
 
 
 # GitHub shortcuts
-<img src="">
-<img src="">
+<img width =50% src="https://raw.githubusercontent.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022/main/Day-03%20assignment/git%20stuff/follow%20along%20files/shortcuts.png">
+<img width =50% src="https://raw.githubusercontent.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022/main/Day-03%20assignment/git%20stuff/follow%20along%20files/shortcuts%20(1).png">
 
 # Git Structure
-<img src="">
+<img  width =50% src="https://raw.githubusercontent.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022/main/Day-03%20assignment/git%20stuff/follow%20along%20files/Git%20Structure.png">
