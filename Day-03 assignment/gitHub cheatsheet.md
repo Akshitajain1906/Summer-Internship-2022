@@ -1,5 +1,5 @@
-# gitHub cheat sheet 
-has the short notes for basic and better understanding of gitHub
+# GitHub cheat sheet 
+has the short notes for basic and better understanding of GitHub
 
 # Why do we need GIT ?
 + enables us to track versions of file
