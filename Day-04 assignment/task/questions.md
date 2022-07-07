@@ -1,7 +1,7 @@
 ## Assignment
 + 1.Write a JavaScript program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.
 + 2.Write a JavaScript program to calculate multiplication and division of two numbers (input from user).Sample form:
-<img width=30% src=" "/>
+<img width=30% src="https://raw.githubusercontent.com/Akshitajain1906/Wisflux-Academy-Summer-Internship---2022/main/Day-04%20assignment/task/sampleform.png"/>
 
 + 3.Write a JavaScript program to convert temperatures to and from Celsius,Fahrenheit.
 [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f =temperature in Fahrenheit ]Expected Output:60°C is 140 °F45°F is 7.222222222222222°C
