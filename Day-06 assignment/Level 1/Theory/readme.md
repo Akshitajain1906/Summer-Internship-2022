@@ -78,15 +78,14 @@ This is call by reference.
 </script> 
 
 ## What are the primitive data typesin Javascript?
--  Primitive Datatype in Javascript
-are-
-
+-  Primitive Datatype in Javascript are-
 1.Number
 2. String
 3. Boolean
 4. Undefined
 5. Null
 6. object
+
 ## What is DOM?
 - DOM stands for Document Object Model. In the world of web, all HTML webpages are referred to as documents. The Document Object Model represents each of these web pages in a tree-like structure to make it easier to access and manage the elements
 ## Why do we need DOM?
