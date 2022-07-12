@@ -8,7 +8,7 @@ let a_fx = function () {
 };  
 a_fx();
 ``` 
--USES
+- USES
 + Immediate execution of a function
 
 In order to invoke and execute a function immediately after its declaration, creating an anonymous function is the best way. 
@@ -60,15 +60,25 @@ let myFunc = {
 }; 
 myFunc.showArgs(1, 6, 13, 4);
 ```
++ Arrow function do not have their own this but regular function have.
 ## 4.What is Hoisting in JavaScript?
 - Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration.
 - In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.
 
 
 ## 5.JavaScript is a garbage collected programming language, explain how?
-- The purpose of a garbage collector is to monitor memory allocation and determine when a block of allocated memory is no longer needed and reclaim it.
+- The purpose of a garbage collector is to monitor memory allocation and determine when a block of allocated memory is no longer needed and reclaim it.When it comes to programming, Garbage Collection means cleaning the memory spaces which don’t contain useful data and then reallocating those cleared memory to some other data which is both active and useful. That is the basic process of Garbage Collection in pretty much all the programming languages in the world. Some programming languages needs explicit interference from the developer while some other languages do this automatically. A low level programming language like C, requires the developer to free the memory by the use of methods such as malloc() and free() when the program no longer needs those variables or objects.It is a developer prerogative to free the memory and the ball is in the developer’s court to decide explicitly whether to free the meory or not. But this is not always the case.For a high level programming language like JavaScript, the memory management process is automated. The browser takes care of that thing for us.
 
 ## 6.Explain Shallow copy vs Deep copy in Javascript?
+- A deep copy means that all of the values of the new variable are copied and disconnected from the original variable. A shallow copy means that certain (sub-)values are still connected to the original variable.
+- Shallow Copy:
+When a reference variable is copied into a new reference variable using the assignment operator, a shallow copy of the referenced object is created.
+a reference variable mainly stores the address of the object it refers to. When a new reference variable is assigned the value of the old reference variable, the address stored in the old reference variable is copied into the new one.
+This means both the old and new reference variable point to the same object in memory. As a result if the state of the object changes through any of the reference variables it is reflected for both.
+- Deep copy:
+deep copy makes a copy of all the members of the old object, allocates separate memory location for the new object and then assigns the copied members to the new object.
+In this way, both the objects are independent of each other and in case of any modification to either one the other is not affected.
+
 ## 7.What is Object.freeze
 - The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed.
 - Freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
@@ -106,7 +116,7 @@ myFunc.showArgs(1, 6, 13, 4);
 
 
 
-## Programs -
+## Program-
 + Write a function that generates a random number between two ranges, -100 to 0 and 800 - 900.
 
 ```js
