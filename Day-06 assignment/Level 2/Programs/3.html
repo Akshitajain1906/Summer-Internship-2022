@@ -1,0 +1,19 @@
+<!-- 3. Show all the values of an array in a html webpage using DOM and forEach method? -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="id1"></p>
+
+    <script>
+      let text = "";
+      const arr = [1, 2, 3];
+      arr.forEach(myFunction);
+
+      document.getElementById("id1").innerHTML = text;
+
+      function myFunction(item) {
+        text += item + "<br>";
+      }
+    </script>
+  </body>
+</html>
