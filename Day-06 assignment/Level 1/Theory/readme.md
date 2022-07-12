@@ -80,6 +80,7 @@ This is call by reference.
 ## What are the primitive data typesin Javascript?
 -  Primitive Datatype in Javascript
 are-
+
 1.Number
 2. String
 3. Boolean
