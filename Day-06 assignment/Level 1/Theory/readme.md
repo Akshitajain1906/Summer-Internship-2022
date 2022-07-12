@@ -25,7 +25,8 @@
 ## What are Objects?
 - A JavaScript object is a collection of named values,JavaScript variables can also contain many values.
 
-Objects are variables too. But objects can contain many values.
+Objects are variables too. 
+But objects can contain many values.
 
 Object values are written as name : value pairs (name and value separated by a colon).
 
