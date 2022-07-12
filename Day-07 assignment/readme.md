@@ -10,9 +10,9 @@ a_fx();
 ``` 
 -USES
 + Immediate execution of a function
-```js
-In order to invoke and execute a function immediately after its declaration, creating an anonymous function is the best way. Let' see an example to understand how we can do so:
 
+In order to invoke and execute a function immediately after its declaration, creating an anonymous function is the best way. 
+```js
 (function() {  
     console.log('Hello');  
 })(); 
@@ -33,7 +33,7 @@ console.log(true === '1'); // false
 ```
 The abstract equality comparison performs a type conversion.
 
-+ 3.Difference b/w arrow functions and regular functions?
+## 3.Difference b/w arrow functions and regular functions?
 - Regular functions are constructible and they can be called using the new keyword
 -The arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions
 ```js
@@ -60,16 +60,16 @@ let myFunc = {
 }; 
 myFunc.showArgs(1, 6, 13, 4);
 ```
-+ 4.What is Hoisting in JavaScript?
+## 4.What is Hoisting in JavaScript?
 - Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration.
 - In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.
 
 
-+ 5.JavaScript is a garbage collected programming language, explain how?
+## 5.JavaScript is a garbage collected programming language, explain how?
 - The purpose of a garbage collector is to monitor memory allocation and determine when a block of allocated memory is no longer needed and reclaim it.
 
-+ 6.Explain Shallow copy vs Deep copy in Javascript?
-+ 7.What is Object.freeze
+## 6.Explain Shallow copy vs Deep copy in Javascript?
+## 7.What is Object.freeze
 - The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed.
 - Freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
 
