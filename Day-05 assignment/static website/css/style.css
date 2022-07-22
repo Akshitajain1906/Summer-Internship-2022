@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    /* background-color:rgb(213, 180, 180); */
+}
+header {
+    position: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.2)), url(../background.webp); 
+    height:100vh; /*viewport height */
+    background-size: cover;
+    background-position:center 
+   
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+ul li {
+    display: inline-block;
+    
+}
+ul li a {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: rgb(245, 250, 255);
+    text-decoration:none;
+    padding: 5px;  
+    margin: 1px;  
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+}
+.logo img{
+    /*position: fixed;*/
+    float: left;
+    width: 100%;
+    margin-top: -1.2%; 
+    box-shadow: 1  0px 10px 5px rgb(201, 141, 141);
+}
+.active {
+    background-color:white;
+    color: black;  
+}
